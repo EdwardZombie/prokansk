@@ -31,7 +31,7 @@ function MobileCategoryes() {
     return (
 
                     <ul className="category-menu">
-                        <List items={items} fallback={" Загружаю меню... "} />
+                        <List items={items} fallback={" ... "} />
                     </ul>
 
 

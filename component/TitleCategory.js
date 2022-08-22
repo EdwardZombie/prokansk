@@ -2,7 +2,7 @@ import React from 'react';
 
 const TitleCategory = ({ items, loading }) => {
     if(loading) {
-        return <h3>Загрузка...</h3>
+        return <>...</>
     }
     const ti = items.map((item, index) => {
         if(index == 0){

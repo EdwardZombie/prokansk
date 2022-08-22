@@ -47,7 +47,7 @@ const ItemsPage = () => {
                             <div className="shop-toolbar with-sidebar mb--30">
                                 <div className="row align-items-center">
                                     <div className="col-lg-12 col-md-12 col-sm-12">
-                                        <h3><TitleCategory items={currentItem} loading={loading} />/<TitleSubCategory items={currentItem} loading={loading} /></h3>
+                                        <h3><TitleCategory items={currentItem} loading={loading} /> / <TitleSubCategory items={currentItem} loading={loading} /></h3>
                                     </div>
                                 </div>
                             </div>

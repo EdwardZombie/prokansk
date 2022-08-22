@@ -100,7 +100,7 @@ const ProductList = () => {
 
             <div className="shop-product-wrap grid with-pagination row space-db--30 shop-border">
 
-                            <List items={items} fallback={" Загружаю категории... "} />
+                            <List items={items} fallback={" ... "} />
 
             </div>
         </div>
