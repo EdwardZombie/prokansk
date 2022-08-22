@@ -179,7 +179,7 @@ return(
                                     </h3>
                                     <ul className="mega-single-block">
                                        <li>
-                                          <Link href={'blog-list-left-sidebar'}>
+                                          <Link href={'/fivekanal'}>
                                              <a>Бегущая строка</a>
                                           </Link>
                                        </li>
@@ -190,7 +190,7 @@ return(
                                     </h3>
                                     <ul className="mega-single-block">
                                        <li>
-                                          <Link href={'blog-details'}>
+                                          <Link href={'/limontv'}>
                                              <a>Бегущая строка</a>
                                           </Link>
                                        </li>

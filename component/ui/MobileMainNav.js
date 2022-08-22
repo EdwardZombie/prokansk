@@ -16,13 +16,19 @@ const MobileMainNav = () => (
             <a href="#">Блог</a>
             <ul className="sub-menu">
                 <li className="menu-item-has-children">
-                    <a href="#">Объявления</a>
+                    <Link href={'blog'}>
+                        <a>Объявления</a>
+                    </Link>
                 </li>
                 <li className="menu-item-has-children">
-                    <a href="#">Объявления 5 канал</a>
+                    <Link href={'/fivekanal'}>
+                    <a>Объявления 5 канал</a>
+                    </Link>
                 </li>
                 <li className="menu-item-has-children">
-                    <a href="#">Объявления Лимон ТВ</a>
+                    <Link href={'/limontv'}>
+                        <a>Объявления Лимон ТВ</a>
+                    </Link>
                 </li>
 
             </ul>
