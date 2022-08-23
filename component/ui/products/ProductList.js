@@ -42,7 +42,7 @@ function List({ items, fallback }) {
                     <div className="product-card--body">
 
                         <Link href={`/shop/${item.slug}/${sub.slug}`}>
-                            <a>
+                            <a className="promo-image sidebar">
                                 <Image
                                     loader={myLoader}
                                     src={sub.img_categoryProduct}
