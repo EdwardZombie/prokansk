@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const BreadCrumt5k = () => (
     <section className="breadcrumb-section">
@@ -7,8 +8,16 @@ const BreadCrumt5k = () => (
             <div className="breadcrumb-contents">
                 <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
-                        <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li className="breadcrumb-item active">Blog</li>
+                        <li className="breadcrumb-item">
+                            <Link href={'/'}>
+                                <a>Главная</a>
+                            </Link>
+                        </li>
+                        <li className="breadcrumb-item">
+                            <Link href={'/fivekanal'}>
+                                <a>Бегущая 5 канал</a>
+                            </Link>
+                        </li>
                     </ol>
                 </nav>
             </div>

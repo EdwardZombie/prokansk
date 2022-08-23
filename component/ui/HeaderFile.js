@@ -199,7 +199,7 @@ return(
                               </ul>
                            </li>
                            <li className="menu-item active">
-                              <Link href={'contact'}>
+                              <Link href={'/contact'}>
                                  <a>Контакты</a>
                               </Link>
                            </li>

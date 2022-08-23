@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = () => (
     <footer className="site-footer">
         <div className="container">
@@ -8,39 +10,48 @@ const Footer = () => (
                             <img src="/image/logo--footer.png" alt="" />
                         </div>
                         <div className="footer-contact">
-                            <p><span className="label">Address:</span><span className="text">Example Street 98, HH2 BacHa, New
-                                    York,
-                                    USA</span></p>
-                            <p><span className="label">Phone:</span><span className="text">+18088 234 5678</span></p>
-                            <p><span className="label">Email:</span><span className="text">suport@hastech.com</span></p>
+                            <p><span className="label">Доставка:</span><span className="text">Доставим продукты в Канск и Канский район</span></p>
+                            <p><span className="label">Тел:</span><span className="text">+7 (991) 500-27-12</span></p>
+                            <p><span className="label">Почта:</span><span className="text">prokanskpetrov@yandex.ru</span></p>
                         </div>
                     </div>
                 </div>
                 <div className=" col-xl-3 col-lg-2 col-sm-6">
                     <div className="single-footer pb--40">
                         <div className="footer-title">
-                            <h3>Information</h3>
+                            <h3>Часы работы</h3>
                         </div>
+                       
+
                         <ul className="footer-list normal-list">
-                            <li><a href="">Prices drop</a></li>
-                            <li><a href="">New products</a></li>
-                            <li><a href="">Best sales</a></li>
-                            <li><a href="">Contact us</a></li>
-                            <li><a href="">Sitemap</a></li>
+                            <li>Пн 09:00 - 23:00</li>
+                            <li>Вт 09:00 - 23:00</li>
+                            <li>Ср 09:00 - 23:00</li>
+                            <li>Чт 09:00 - 23:00</li>
+                            <li>Пт 09:00 - 23:00</li>
+                            <li>Сб 10:00 - 22:00</li>
+                            <li>Вс 11:00 - 21:00</li>
                         </ul>
+
                     </div>
                 </div>
                 <div className=" col-xl-3 col-lg-2 col-sm-6">
                     <div className="single-footer pb--40">
                         <div className="footer-title">
-                            <h3>Extras</h3>
+                            <h3>Информация</h3>
                         </div>
                         <ul className="footer-list normal-list">
-                            <li><a href="">Delivery</a></li>
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">Stores</a></li>
-                            <li><a href="">Contact us</a></li>
-                            <li><a href="">Sitemap</a></li>
+                            <li><a href="">Доставка</a></li>
+                            <li><a href="">Оплата</a></li>
+                            <li><a href="">О нас</a></li>
+                            <li>
+                                <Link href={'/contact'}>
+                                    <a>
+                                        Контакты
+                                    </a>
+                                </Link>
+                            </li>
+                            <li><a href="">Карта сайта</a></li>
                         </ul>
                     </div>
                 </div>
