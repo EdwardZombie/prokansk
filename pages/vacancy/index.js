@@ -47,12 +47,12 @@ const About = ({ vacancy }) => {
                             <div className="row">
                                 <div className="col-md-5">
                                     <a className="image d-block">
-                                        <img src="image/deliveryer.png" alt="" />
+                                        <img src="/image/deliveryer.png" alt={title} />
                                     </a>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="card-content">
-                                        <h3 className="title"><a href="blog-details.html">{title}</a></h3>
+                                        <h3 className="title"><a>{title}</a></h3>
                                         <p className="post-meta"><span>{place}</span> | <a>{salaty}</a></p>
                                         <article>
                                             <h2 className="sr-only">
@@ -60,7 +60,7 @@ const About = ({ vacancy }) => {
                                             </h2>
                                             <p dangerouslySetInnerHTML={{ __html: decscription }} />
                                             <Link href={'#'}>
-                                                <a className="blog-link">Подать заявку</a>
+                                                <a className="blog-link">Оставить заявку</a>
                                             </Link>
                                         </article>
                                     </div>
