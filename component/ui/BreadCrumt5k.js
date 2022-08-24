@@ -14,9 +14,7 @@ const BreadCrumt5k = () => (
                             </Link>
                         </li>
                         <li className="breadcrumb-item">
-                            <Link href={'/fivekanal'}>
-                                <a>Бегущая 5 канал</a>
-                            </Link>
+                            <a>Бегущая 5 канал</a>
                         </li>
                     </ol>
                 </nav>

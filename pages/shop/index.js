@@ -2,7 +2,6 @@ import BrandSlider from "../../component/ui/products/BrandSlider";
 import BreadCrump from "../../component/ui/BreadCrump";
 import ProductList from "../../component/ui/products/ProductList";
 import CategoryLeft from "../../component/ui/products/CategoryLeft";
-import Pagination from "../../component/Pagination";
 
 const Shop = () => (
 
@@ -16,7 +15,6 @@ const Shop = () => (
                 </div>
             </div>
         </main>
-        <Pagination />
 
     </>
 )

@@ -1,16 +1,16 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import Link from "next/link";
 import BreadCrumt5k from "../../component/ui/BreadCrumt5k";
 import LeftBlogMenu from "../../component/ui/LeftBlogMenu";
 import Blogs5k from "../../component/blogs/Blogs5k";
+import Pagination from "../../component/Pagination";
 
 
 const Fivekanal = () => {
     const [blogs, setBlogs] = useState([])
     const [loading, setLoading] = useState(false)
     const [currrentPage, setCurrrentPage] = useState(1)
-    const [blogsPerPage] = useState(9)
+    const [blogsPerPage] = useState(36)
 
     useEffect(() => {
         const getBlogs = async () => {
@@ -42,6 +42,14 @@ const Fivekanal = () => {
 
                                     <Blogs5k blogs={currentBlog} loading={loading} />
 
+                        </div>
+                        <div className="shop-product-wrap grid row">
+                            <Pagination
+                                blogsPerPage={blogsPerPage}
+                                totalBlogs={blogs.length}
+                                paginate={paginate}
+                                currentBlog={currrentPage}
+                            />
                         </div>
                     </div>
 
