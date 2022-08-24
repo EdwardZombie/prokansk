@@ -36,9 +36,11 @@ const LeftBlogMenu = () => (
 
 
             <div className="single-block">
-                <a href="" className="promo-image sidebar">
-                    <img src="/image/others/home-side-promo.jpg" alt="" />
-                </a>
+                <Link href={'/vacancy'}>
+                    <a className="promo-image sidebar">
+                        <img src="/image/deliveryer.png" alt="Вакансии нашей компании в Канске" />
+                    </a>
+                </Link>
             </div>
         </div>
     </div>

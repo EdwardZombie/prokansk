@@ -44,6 +44,11 @@ const Footer = () => (
                             <li><a href="">Доставка</a></li>
                             <li><a href="">Оплата</a></li>
                             <li>
+                                <Link href={'/vacancy'}>
+                                    <a>Вакансии компании</a>
+                                </Link>
+                            </li>
+                            <li>
                                 <Link href={'/about'}>
                                     <a>О нас</a>
                                 </Link>
