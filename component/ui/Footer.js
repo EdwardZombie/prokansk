@@ -43,7 +43,11 @@ const Footer = () => (
                         <ul className="footer-list normal-list">
                             <li><a href="">Доставка</a></li>
                             <li><a href="">Оплата</a></li>
-                            <li><a href="">О нас</a></li>
+                            <li>
+                                <Link href={'/about'}>
+                                    <a>О нас</a>
+                                </Link>
+                            </li>
                             <li>
                                 <Link href={'/contact'}>
                                     <a>
