@@ -19,7 +19,7 @@ export const getStaticProps = async () => {
 }
 
 const myLoader = ({ src, width, quality }) => {
-    return `http://prokansk.ru${src}?w=${width}&q=${quality || 75}`
+    return `http://prokansk.ru${src}?w=${width}&q=${quality || 50}`
 }
 
 const Home = ({ tovarsMain }) => {
@@ -31,7 +31,7 @@ const Home = ({ tovarsMain }) => {
 
 
                         {tovarsMain && tovarsMain.map(({id, name, price, image1}) => (
-                            <div className="col-lg-3 col-md-4 mb-lg--60 mb--30" key={id}>
+                            <div className="col-lg-2 col-md-4 mb-lg--60 mb--30" key={id}>
                                 <div className="blog-card card-style-grid">
 
                                     <Link href="#">
