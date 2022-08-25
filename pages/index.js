@@ -41,7 +41,7 @@ const Home = ({ tovarsMain }) => {
                                                 src={image1}
                                                 alt={name}
                                                 width={350}
-                                                height={250}
+                                                height={265}
                                             />
                                         </a>
                                     </Link>
